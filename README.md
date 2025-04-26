@@ -1,1 +1,16 @@
-#
+# Negromate Creatives
+
+## Proyecto final modulo-dw CEI
+
+El repositorio contiene los siguientes archivos:
+
+- index.html
+
+- Carpeta CSS con reset, styles y media queries.
+
+- Carpeta Javascript con el archivo main js.
+
+- Carpeta assets con informacion e imagenes utlizadas en la produccion del proyecto.
+
+
+Alan Smallpage
