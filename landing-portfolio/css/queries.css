@@ -1,0 +1,337 @@
+/* --------------------------------- */
+/*   CSS / Media Queries Responsive  */
+/* --------------------------------- */
+/* --------------------------------- */
+/* ----------Big Desktops----------- */
+/* --------------------------------- */
+/* --------------------------------- */
+@media screen and (min-width: 2560px) {
+    .headerLogo {
+        width: 48rem;
+    }
+    .galleryGrid {
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    }
+    .galleryCaption {
+        font-size: 1.5rem;
+    }.spangallery {
+        font-size: 2rem;
+    }
+    .gridAboutUs {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "title title"
+            "info info"
+            "subtitle subtitle"
+            "figure artists";
+    }
+    .h2-Gallery, .h2-MediaGallery,.h2-AboutUs, .h2-Contact, .h2-Product {
+        font-size: 2.5rem;
+    }
+    .ulLink, .pAboutUs-principal, .pContact, .labelContact, .contactButton, .pAboutUs-artists, .pFooter, .pSocial-link {
+        font-size: 1.5rem;
+    }
+    .h3-AboutUs {
+        font-size: 1.8rem;
+    }
+    .media-GalleryImages {
+        height: 38rem;
+        width: 100%;
+        margin: 0;
+    }
+    .media-GalleryBrand {
+        font-size: 2rem;
+        padding: 1.5rem;
+    }
+    .productImagenes {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .productImg {
+        height: 25rem;
+    }
+    .productBrand {
+        font-size: 2rem;
+        padding: 1.5rem 3rem;
+    }
+}
+/* --------------------------------- */
+/* --------------------------------- */
+/* ------------Desktops------------- */
+/* --------------------------------- */
+/* --------------------------------- */
+@media screen and (min-width: 1328px) and (max-width: 2559px){
+    .headerLogo {
+        width: 32rem;
+    }
+    .sectionHero {
+        height: 91.5vh;
+    }
+    .galleryGrid {
+        grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    }
+    .gridAboutUs {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "title title"
+            "info info"
+            "subtitle subtitle"
+            "figure artists";
+    }
+    .media-GalleryImages {
+        height: 32rem;
+        width: 100%;
+        margin: 0;
+    }
+    .productImagenes {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .productImg {
+        height: 20rem;
+    }
+}
+/* --------------------------------- */
+/* --------------------------------- */
+/* ------------Laptops-------------- */
+/* --------------------------------- */
+/* --------------------------------- */
+@media screen and (min-width: 1024px) and (max-width: 1439px){
+    .sectionHero {
+        height: 90.5vh;
+    }
+    .centralHero.isExpand {
+        max-width: 25rem;
+        transform: translate(-50%, -50%);
+    }
+    .galleryGrid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+    .gridAboutUs {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "title title"
+            "info info"
+            "subtitle subtitle"
+            "figure artists";
+    }
+    .figure-AboutUs {
+        max-height: 32rem;
+    }
+    .image-AboutUs {
+        max-height: 100%;
+    }
+    .pAboutUs-artists {
+        max-width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .media-GalleryImages {
+        height: 28rem;
+        width: 100%;
+        margin: 0;
+    }
+    .productImagenes {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .productImg {
+        height: 18rem;
+    }
+}
+/* --------------------------------- */
+/* --------------------------------- */
+/* ------------Tablets-------------- */
+/* --------------------------------- */
+/* --------------------------------- */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .centralHero.isExpand {
+        max-width: 25rem;
+        transform: translate(-50%, -50%);
+    }
+    .gridAboutUs {
+        grid-template-columns: 1fr;
+    }
+    .image-AboutUs {
+        max-height: 100%;
+    }
+    .pAboutUs-artists {
+        padding: 1rem 2rem;
+    }
+    .media-GalleryContainer {
+        flex-direction: column;
+    }
+    .media-GalleryImages {
+        height: 100%;
+        margin-top: 1rem;
+        width: 100%;
+        margin: 0;
+    }
+    .productImagenes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .productImg {
+        height: 16rem;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 960px) {
+    .Header {
+        justify-content: space-between;
+        gap: 1rem;
+    }
+    .headerLogo {
+        width: 32rem;
+    }
+    .sectionHero {
+        height: 92vh;
+    }
+    .centralHero {
+        width: 70%;
+    }
+    .centralHero.isExpand {
+        max-width: 25rem;
+        transform: translate(-50%, -50%);
+    }
+    .galleryGrid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+    .image-AboutUs {
+        max-height: 100%;
+        object-position: center;
+    }
+    .pAboutUs-artists {
+        padding: 1rem 2rem;
+    }
+    .media-GalleryContainer {
+        flex-direction: column;
+    }
+    .media-GalleryImages {
+        min-height: 22rem;
+        margin-top: 1rem;
+        width: 100%;
+        margin: 0;
+    }
+    .media-GalleryBrand {
+        font-size: 1.3rem;
+        padding: 0.8rem;
+        width: 100%;
+        margin: 0;
+    }
+    .productImagenes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .productImg {
+        height: 14rem;
+    }
+    .productBrand {
+        font-size: 1.3rem;
+        padding: 0.8rem 1.5rem;
+    }
+    .theme-toggle {
+        padding: 0.4rem 0.8rem;
+        font-size: 0.8rem;
+    }
+}
+/* --------------------------------- */
+/* --------------------------------- */
+/* --- Media queries menu hidden---- */
+/* --------------------------------- */
+/* --------------------------------- */
+@media screen and (max-width: 960px) {
+    .Menu {
+        display: block;
+    }
+    .ulNav {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: var(--dark-bg);
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        display: none;
+        z-index: 3;
+    }
+    .ulNav.isActive {
+        display: flex;
+    }
+    .ulList {
+        margin: 0.5rem 0;
+    }
+}
+/* --------------------------------- */
+/* --------------------------------- */
+/* ------------Mobiles-------------- */
+/* --------------------------------- */
+/* --------------------------------- */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .Header {
+        padding: 0.8rem;
+        gap: 1rem;
+    }
+    .headerLogo {
+        width: 20rem;
+    }
+    .sectionHero {
+        height: 91vh;
+    }
+    .centralHero {
+        width: 90%; 
+    }
+    .centralHero.isExpand {
+        max-width: 25rem;
+        transform: translate(-50%, -50%);
+    }
+    .galleryGrid {
+        grid-template-columns: 1fr;
+    }
+    .h2-Gallery, .h2-MediaGallery,.h2-AboutUs, .h2-Contact, .h2-Product {
+        font-size: 1.5rem;
+    }
+    .media-GalleryContainer {
+        flex-direction: column;
+    }
+    .image-AboutUs {
+        max-height: 100%;
+    }
+    .pAboutUs-artists {
+        padding: 1rem 2rem;
+    }
+
+    .mediaGalleryContainer {
+        flex-direction: column;
+    }
+    .media-GalleryBrand {
+        font-size: 1.2rem;
+        padding: 0.6rem;
+    }
+    .media-GalleryImages {
+        min-height: 16rem;
+        margin-top: 1rem;
+        width: 100%;
+        margin: 0;
+    }
+    .media-GalleryBrands {
+        gap: 0.5rem;
+        width: 100%;
+        margin: 0;
+    }
+    .productImagenes {
+        grid-template-columns: 1fr;
+    }
+    .productImg {
+        height: 12rem;
+    }
+    .productBrand {
+        font-size: 1.2rem;
+        padding: 0.6rem 1rem;
+    }
+    .footerContent {
+        flex-direction: column;
+        text-align: center;
+    }
+    .socialLinks {
+        flex-wrap: wrap;
+    }
+    .themeButton {
+        margin-bottom: 0.5rem;
+    }
+}

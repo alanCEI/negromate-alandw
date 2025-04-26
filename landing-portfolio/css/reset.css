@@ -1,0 +1,64 @@
+/* --------------------------------- */
+/* --------------------------------- */
+/* ----- Custom properties root ---- */
+/* --------------------------------- */
+/* --------------------------------- */
+:root {
+    --main-color: #333333;
+    --dark-bg: #1a1a1a;
+    --sub-color: #E3E3E3;
+    --contrast-color: #e9f76b;
+    --sub-contrast: #0021D7;
+
+    --font-family: "Spartan", sans-serif;
+}
+/* ----------- Dark mode ----------- */
+.darkMode {
+    --main-color: #E3E3E3;
+    --dark-bg: #E3E3E3;
+    --sub-color: #1a1a1a;
+    --contrast-color: #333333;
+    --sub-contrast: #e9f76b;
+
+}
+/* ---------- General reset -------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+/* ---------- Images reset --------- */
+img, picture, figure {
+    max-width: 100%;  
+    display: block;
+    object-fit: cover;
+}
+/* ---------- Links reset ---------- */
+a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+/* ----- inline-pLinks reset ------- */
+p a {
+    display: inline;
+}
+/* ------ Hidden lists styles ------ */
+li {
+    list-style-type: none;
+}
+/* -- Scroll movement html reset --- */
+html {
+    scroll-behavior: smooth;
+}
+/* ---------- Body reset ----------- */
+body {
+    min-height: 100vh;
+    font-size: 1rem;
+    font-family: var(--font-family);
+    color: var(--sub-color);
+    background-color: var(--main-color);
+    line-height: 1.6;
+}
