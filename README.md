@@ -10,6 +10,8 @@ El repositorio contiene los siguientes archivos:
 
 - Carpeta Javascript con el archivo main js.
 
+- Carpeta de imagenes empleadas en la pagina web.
+
 - Carpeta assets con informacion e imagenes utlizadas en la produccion del proyecto.
 
 
