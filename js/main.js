@@ -144,9 +144,9 @@
     
         // Actualizar el texto del botón de cambio de tema
             if (document.body.classList.contains('darkMode')) {
-            themeToggle.textContent = 'Modo claro';
-            } else {
             themeToggle.textContent = 'Modo oscuro';
+            } else {
+            themeToggle.textContent = 'Modo claro';
             }
         
 });
