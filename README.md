@@ -1,10 +1,10 @@
-# Negromate Creatives
+# Negromate Creatives Portfolio
 
 ## Proyecto final modulo-dw CEI
 
 El repositorio contiene los siguientes archivos:
 
-- index.html
+- Landing page index.html
 
 - Carpeta CSS con reset, styles y media queries.
 
